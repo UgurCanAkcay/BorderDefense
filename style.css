@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.instructions {
+    display: flex;
+    position: absolute;
+    width: 150px;
+    transform: translate(150%, 900%);
+    color: #8db596;
+    font-size: 1.1em;
+    background-color: black;
+    justify-content: center;
+    border: 1px solid #8db596;
+    border-radius: 8px;
+    padding: .5em 1em;
+    margin: 2em 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.instructions:hover {
+    border-color: #92817a;
+    color: #92817a;
+    animation: animateBorder .5s infinite
+}
+
+.newGame{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    transform: translate(-150%, 900%);
+    color: #8db596;
+    font-size: 1.1em;
+    background-color: black;
+    justify-content: center;
+    border: 1px solid #8db596;
+    border-radius: 8px;
+    padding: .5em 1em;
+    margin: 2em 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.newGame:hover {
+    border-color: #92817a;
+    color: #92817a;
+    animation: animateBorder .5s infinite
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    transform: translate(-30%,0%);
+    z-index: 1; /* Sit on top */
+    padding-top: 40px; /* Location of the box */
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 0;
+    top: 0;
+    width: 500px; /* Full width */
+    height: 300px; /* Full height */
+    font-family: 'orbitron';
+    color: #707070;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: black; /* Black w/ opacity */
+    box-shadow: 0px 0px 15px 15px #bedbbb;
+}
+
+/* Modal Content */
+.modal-content {
+    font-family: 'orbitron', sans-serif;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: whitesmoke;
+    position: absolute;
+    transform: translate(2600%, -100%);
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.highScore {
+    display: flex;
+    position: absolute;
+    width: 150px;
+    transform: translate(-100%, -1500%);
+    color: black;
+    font-size: 1.1em;
+    background-color: #92817a;
+    justify-content: center;
+    border: 1px solid #8db596;
+    border-radius: 8px;
+    padding: .5em 1em;
+    margin: 2em 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.highScoreInfo {
+    color: #e1f1dd;
+    position: absolute;
+    font-size: 1.8em;
+    margin-top: -700px;
+    padding: 10px;
+    z-index: 999;
+}
+
+.gameStatus{
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, 150%);
+    font-family: 'orbitron';
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    color: #8db596;
+    text-shadow: #766161;
+}
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 600px;
+    background: url("Sprites/Background/bullet-track.png") center center / 100% 100% no-repeat,
+                url("Sprites/Background/borderdefense.gif") center center / 100% 100% no-repeat;
+    font-family: 'orbitron', sans-serif;
+    box-shadow: 0px 0px 15px 15px;
+    animation: animateBorder 15s infinite;
+}
+
+@keyframes animateBorder {
+    0%   {box-shadow: 0px 0px 15px 15px #f9e0ae;}
+    19%  {box-shadow: 0px 0px 15px 15px #fc8621;}
+    34%  {box-shadow: 0px 0px 15px 15px #c24914;}
+    49%  {box-shadow: 0px 0px 15px 15px #682c0e;}
+    64%  {box-shadow: 0px 0px 15px 15px #f9e0ae;}
+    79%  {box-shadow: 0px 0px 15px 15px #c24914;}
+    100%   {box-shadow: 0px 0px 15px 15px #682c0e;}
+}
+
+#startGame {
+    transform: translate(0, 200px);
+    animation: none;
+    border-color: #8db596;
+    background-color: transparent;
+}
+
+#startGame:hover {
+    border-color: #92817a;
+    color: #92817a;
+}
+
+#canvas1.active{
+    border-color: #92817a;
+    color: #92817a;
+    animation: animateBorder .5s infinite;
+}

@@ -1,0 +1,56 @@
+<!DocType html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewport" content="width=device-width, initial-scale = 1.0">
+        <title> The Last Castle </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href="style.css">
+    </head>
+
+    <body>
+<div id="highScoreInfo" class="highScoreInfo"> </div>
+    <canvas id = "canvas1"> </canvas>
+    <div class="gameStatus"> </div>
+    <button class ="newGame"  onclick="location.reload()"> Yeni Oyun </button>
+    <button id ="startGame" class="newGame" onclick="startGame()"> Başla! </button>
+    <button id = "instructions" class="instructions" > Nasıl Oynanır </button>
+        <div id = "myModal" class="modal">
+            <div class="modalContent">
+                <span class="close"> &times </span>
+                <p> 1.  Bir savunucu seçin ve savunmak için onu sınır hattına koyun. Savunucu alırken kaynagına dikkat etmelisin.</p>
+                <br>
+                <p> 2.  Canavarları öldürmen sana daha fazla kaynak kazandırır. Canavarları öldür ve daha fazla savunucu satın al!</p>
+                <br>
+                <p> 3.  Kaynak kazanmak için yıldızları topla!</p>
+                <br>
+                <p> 4. Unutma zafere ulasmak için saglam bir orduya ihtiyacın var. #Don't forget, this is The Last Castle!#</p>
+            </div>
+        </div>
+
+    <script src ="script.js"> </script>
+    <script>
+        let button = document.getElementById('startGame');
+        let canvas = document.getElementById('canvas1');
+        button.addEventListener('mouseenter', e => {canvas.classList.add('active')});
+        button.addEventListener('mouseleave', e => {canvas.classList.remove('active')});
+    </script>
+    <script>
+        let modal = document.getElementById("myModal");
+        let btn = document.getElementById("instructions");
+        let span = document.getElementsByClassName("close")[0];
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+        window.onclick = function(e) {
+            if (e.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
