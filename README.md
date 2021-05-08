@@ -1,5 +1,6 @@
 # THE LAST CASTLE!
 
+![Screenshot_3](https://user-images.githubusercontent.com/51748845/117519285-9fc9c100-afab-11eb-9a44-6440c27ba8e5.jpg)
 
 ## Tanıtım
 ►The Last Castle, sınır koruma tarzında bir oyundur.
@@ -10,9 +11,13 @@
 - Koridorlarda rastgele çıkan, farklı değerlere sahip yıldızları farenizi yıldızın üzerine getirerek kaynağınıza ekleyerek yeni ve daha güçlü askerler satın alabilirsiniz.
 - Dusmanlar 3 farklı türden ve can değerine sahiptir. Başlangıçta düşmanlar daha yavas hareket ederler ancak sınır hattını korumak zaman geçtikçe zorlaşır. 
 
+![Screenshot_1](https://user-images.githubusercontent.com/51748845/117519369-e3242f80-afab-11eb-875c-f1749c987bce.jpg)
+![Screenshot_2](https://user-images.githubusercontent.com/51748845/117519370-e5868980-afab-11eb-82dc-feb620e52c71.jpg)
 
 ## Baslarken
 - Oyuna başlarken nasıl oynanacağı hakkında bilgi almak için, "Nasıl Oynanır" butonuna basıp oyun oynamak için gerekli bilgileri öğrenebilirsiniz.
+
+![Screenshot_4](https://user-images.githubusercontent.com/51748845/117519359-ddc6e500-afab-11eb-847b-b79981531423.jpg)
 
 ## Projeyi Nasıl Çalıştırırım
 - Güncel bir masaüstü web tarayıcısı ile rahatlıkla oyunu oynayıp, eğlenceli zamanlar harcayabilirsin.
