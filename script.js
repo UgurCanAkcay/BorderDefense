@@ -651,7 +651,7 @@ function startGame () {
         }  
     }
 }
-// tamamlayamadim
+// highscore
     function updateHighScore() {
         if (score > lastHighScore || isNaN(lastHighScore)) {
             localStorage.setItem('highScore', String(score));
