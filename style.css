@@ -10,6 +10,9 @@ body {
     justify-content: center;
     align-items: center;
     background-color: black;
+    background-image: url('Sprites/Background/background-soldier-alien.jpg');
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 
 .instructions {
