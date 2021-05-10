@@ -1,5 +1,7 @@
 # THE LAST CASTLE!
 
+## Oyun Senaryosu
+2020 yılında yaşanan nükleer savaşın ardından dünya yaşanamaz hale gelmis ve yeryüzündeki bazı insanlar sınır hattı cevresinde saklanarak hayatta kalmaya calısmıstır. Yeryüzünde ise mutasyona uğramış yaratıklar ve radyasyon sebebiyle ölüm kol gezmektedir. Dünyadaki mutant saldırıları, kıtlık gibi bir çok felaket baş göstermektedir. Ancak yine de insanlar bir hiyerarsi kurmus, para yerine mermi ve yemek olarak da cesitli yapay gıdalar yetiştirmeye baslamıslardır. Aradan geçen 20 yılın ardından sınırları korumak oldukca zorlasmıstı. The Last Castle olarak adlandırılan ana sınır hattı dusmek üzereydi, son umut olarak sınır hattını korumak icin üst düzey bir komutan atandı...
 ![Screenshot_3](https://user-images.githubusercontent.com/51748845/117519285-9fc9c100-afab-11eb-9a44-6440c27ba8e5.jpg)
 
 ## Tanıtım
