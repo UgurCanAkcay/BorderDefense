@@ -25,6 +25,8 @@
 - Güncel bir masaüstü web tarayıcısı ile rahatlıkla oyunu oynayıp, eğlenceli zamanlar harcayabilirsin.
 - http://borderdefense.eu5.org/ adresine gidip istediğiniz zaman oynayabilirsiniz yada dilerseniz github üzerinden oyun için tüm gerekli dosyalarıyla birlikte indirip, index.html 'e girip oynayabilirsiniz.
 
+![ssFgame](https://user-images.githubusercontent.com/51748845/117712158-9ffcd300-b1dc-11eb-83d9-1a7747de9b2a.jpg)
+
 ## Oyun Oluştururken
 - HTML,CSS,Javascript gibi teknolojiler kullanıldı.
 - Online PNG toolları, Ücretsiz Sprite Sheet paketleri kullanıldı. 
